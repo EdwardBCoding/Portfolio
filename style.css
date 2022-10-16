@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color: papayawhip;
+    --secondary-color: rgba(90, 64, 49, 0.94);
+    --primary-font: 'Poppins', sans-serif;
+
+}
+
+body{
+    background-color: var(--primary-color);
+    font-family: var(--primary-font);
+}
+
+h1{
+    font-weight: 700;
+    font-size: 10rem;
+    color: var(--secondary-color);
+    text-shadow: 0 2px 4px rgb(13 0 77 / 8%), 0 3px 6px rgb(13 0 77 / 8%), 0 8px 16px rgb(13 0 77 / 8%);
+}
+
+h3{
+    font-weight: 200;
+    font-size: 8rem;
+    letter-spacing: -0.5rem;
+    color: var(--secondary-color);
+    text-shadow: 0 2px 4px rgb(13 0 77 / 8%), 0 3px 6px rgb(13 0 77 / 8%), 0 8px 16px rgb(13 0 77 / 8%);
+}
+
+.sec1{
+    height: 100vh;
+    background: linear-gradient(45deg, #C7F5FE 10%, #C7F5FE 30%, #FCC8F8 40%, #FCC8F8 65%, #EAB4F8 65%, #EAB4F8 70%, #F3F798 85%, #F3F798 90%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec2{
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
