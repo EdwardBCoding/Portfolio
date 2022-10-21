@@ -18,6 +18,27 @@ body{
     font-family: var(--primary-font);
 }
 
+header{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 3vh 3.5vw;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 1vw;
+}
+
+.menu-btn{
+    display: none;
+}
+
 h1{
     font-weight: 700;
     font-size: 10rem;
